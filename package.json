@@ -6,19 +6,13 @@
   "scripts": {
     "start": "node app.js"
   },
-  "devDependencies": {
-    "chalk": "^1.1.1",
-    "gulp": "^4.0.0",
-    "gulp-develop-server": "^0.5.0",
-    "gulp-jscs": "^3.0.2",
-    "gulp-jshint": "^2.1.0",
-    "mocha": "^5.2.0",
-    "should": "^7.1.1",
-    "supertest": "^3.3.0"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CJ8664/njr-proxy.git"
   },
+  "license": "MIT",
   "dependencies": {
     "express": "^4.13.3",
-    "gulp-mocha": "^6.0.0",
     "http-proxy": "^1.12.0",
     "morgan": "^1.6.1"
   }
