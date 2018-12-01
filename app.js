@@ -32,5 +32,6 @@ app.all("/*", function(req, res) {
   }
 });
 
-console.log("Starting reverse proxy server");
-app.listen(3000);
+console.log("Starting reverse proxy server...");
+app.listen(4000);
+console.log("Started reverse proxy server");
